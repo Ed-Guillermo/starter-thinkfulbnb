@@ -178,10 +178,11 @@ footer p {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  align-items: center;
   }
-  /* form div button{
-    padding: 30px;
-  } */
+  form div button{
+    float: right;    
+  }
   form label{
   width: 48%;
   float: left;
@@ -192,7 +193,7 @@ footer p {
   }
   #cars{
     float: left;
-    margin: 0;   
+    margin: 0;
   }
   form div button{
     margin: 10px;
