@@ -97,12 +97,16 @@ form {
 
 form label {
   font-weight: bold;
+  text-align: left;
+  float: left;
 }
 
 form select,
 form input {
   margin-bottom: 20px;
-  width: 180px;  
+  width: 180px;
+  float: right;
+  text-align: center;
 }
 
 form button {
