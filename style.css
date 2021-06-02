@@ -197,6 +197,9 @@ footer p {
   form div button{
     margin: 10px;
   }
+
+  /* -------  About ------- */
+
   .alternate-background{
     display: flex;
     flex-direction: column;
@@ -218,7 +221,7 @@ footer p {
     float: right;
   }
 
-  /* -------  About ------- */
+  /* -------  Ideas ------- */
 
 #ideas h2{
   text-align: center;
@@ -247,6 +250,10 @@ justify-content: space-between;
   justify-content: space-between;
 }
   #ideas img{
-    width: 75%;
+    width: 90%;
   }
+
+  /* -------  Footer ------- */
+
+  
 }
