@@ -169,9 +169,6 @@ footer p {
   header h1 {
   margin: 14px 0;
   padding-top: 0;
-  header nav {
-  }
-    margin-top: 8px;
   }
 
   form{
@@ -181,7 +178,7 @@ footer p {
   align-items: center;
   }
   form div button{
-    float: right;    
+    float: right;
   }
   form label{
   width: 48%;
@@ -197,5 +194,25 @@ footer p {
   }
   form div button{
     margin: 10px;
+  }
+  .alternate-background{
+    display: flex;
+    flex-direction: column;
+  }
+  .alternate-background div{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  .alternate-background h2{
+    margin-top: 20px;
+  }
+  .alternate-background img{
+    float: left;
+    width: 25%;
+    margin: 20px;
+  }
+  .alternate-background p{
+    float: right;
   }
 }
