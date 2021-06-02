@@ -175,19 +175,26 @@ footer p {
   }
 
   form{
-    display: flex;
-    flex-direction: row;
-    padding: 0 30px;
-    margin: 10px 0 10px 0;
-    justify-content: space-between;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
   }
   /* form div button{
     padding: 30px;
   } */
   form label{
-    padding: 0 30px;
+  width: 48%;
+  float: left;
   }
-  form input{
-    padding: 0 30px;
+  form input, select{
+    float: left;
+    margin: 0;
+  }
+  #cars{
+    float: left;
+    margin: 0;   
+  }
+  form div button{
+    margin: 10px;
   }
 }
