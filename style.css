@@ -171,6 +171,8 @@ footer p {
   padding-top: 0;
   }
 
+/* -------  Search Form ------- */
+
   form{
   display: flex;
   flex-direction: row;
@@ -214,5 +216,37 @@ footer p {
   }
   .alternate-background p{
     float: right;
+  }
+
+  /* -------  About ------- */
+
+#ideas h2{
+  text-align: center;
+}
+.container{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+  justify-content: space-between;
+}
+.column {
+display: flex;
+flex-direction: column;
+align-items: center;
+flex-basis: 100%;
+flex: 1;
+justify-content: space-between;
+}
+.double-column {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-basis: 100%;
+  flex: 1;
+  justify-content: space-between;
+}
+  #ideas img{
+    width: 75%;
   }
 }
