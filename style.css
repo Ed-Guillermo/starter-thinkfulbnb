@@ -167,10 +167,27 @@ footer p {
     padding: 0 30px;
   }
   header h1 {
-    margin: 14px 0;
-    padding-top: 0;
-  }
+  margin: 14px 0;
+  padding-top: 0;
   header nav {
+  }
     margin-top: 8px;
+  }
+
+  form{
+    display: flex;
+    flex-direction: row;
+    padding: 0 30px;
+    margin: 10px 0 10px 0;
+    justify-content: space-between;
+  }
+  /* form div button{
+    padding: 30px;
+  } */
+  form label{
+    padding: 0 30px;
+  }
+  form input{
+    padding: 0 30px;
   }
 }
