@@ -1,7 +1,19 @@
 /* -------  General Styles ------- */
+* {
+  box-sizing: border-box;
+}
+html,body
+{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+}
 
 body {
   font-family: "Lato", sans-serif;
+  width: 100%;
 }
 
 h2 {
@@ -60,7 +72,7 @@ header {
 
 .logo {
   font-family: "Pangolin", cursive;
-  font-size: 72px;
+  font-size: 60px;
   color: #fff;
 }
 header nav ul {
@@ -166,6 +178,12 @@ footer p {
     justify-content: space-between;
     padding: 0 30px;
   }
+  .logo {
+    font-size: 72px;
+  }
+  header nav{
+    align-items: center;
+  }
   header h1 {
   margin: 14px 0;
   padding-top: 0;
@@ -189,13 +207,15 @@ footer p {
   form input, select{
     float: left;
     margin: 0;
+    width: 150px;
   }
   #cars{
     float: left;
     margin: 0;
+    width: 100px;
   }
   form div button{
-    margin: 10px;
+    overflow: hidden;
   }
 
   /* -------  About ------- */
